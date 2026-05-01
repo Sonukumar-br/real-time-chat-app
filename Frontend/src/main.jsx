@@ -9,7 +9,7 @@ import axios from "axios";
 
 axios.defaults.withCredentials = true;
 
-export const serverURL="http://localhost:8000"
+export const serverURL="https://realtimechatapp-backend-ue24.onrender.com"
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
