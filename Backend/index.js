@@ -18,7 +18,8 @@ app.set("trust proxy", 1);
 
 app.use(cors({
   origin: "https://realtimechatapp-fkty.onrender.com",
-  credentials: true
+  credentials: true,
+   methods: ["GET", "POST", "PUT", "DELETE"],
 }));
 
 app.use(express.json());
