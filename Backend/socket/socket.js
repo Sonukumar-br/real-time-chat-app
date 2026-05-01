@@ -7,8 +7,9 @@ let app = express()
 const server=http.createServer(app)
 const io=new Server(server,{
     cors:{
-        origin:https://realtimechatapp-fkty.onrender.com ,
-        credentials: true
+       origin: "https://realtimechatapp-fkty.onrender.com", // 👈 quotes जरूरी
+    methods: ["GET", "POST"],
+    credentials: true
 
     }
 
